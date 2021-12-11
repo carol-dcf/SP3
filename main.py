@@ -15,11 +15,15 @@ if __name__ == "__main__":
         #### 1 #####
         if (ex == 1):
             print("\033[1mEXERCISE 1\033[0m")
-
+            sp3.change_codec("VP8")
+            sp3.change_codec("VP9")
+            sp3.change_codec("h265")
+            sp3.change_codec("AV1")
 
         #### 2 #####
         elif (ex == 2):
             print("\n\033[1mEXERCISE 2\033[0m")
+            sp3.compare_vcodecs("VP8", "VP9", "Results/VP8_cut_bbb.webm", "Results/VP9_cut_bbb.webm")
 
 
         elif (ex == 3):
