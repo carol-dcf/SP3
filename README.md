@@ -18,5 +18,5 @@ Instructions are really clear once you are running the files, however, here's a 
 Regarding exercise 2: we can see how the two are very similar since the chosen codecs (VP8 and VP9) do not differ that much. However, when using better resolutions, like in the 720p file, VP9 offers a better solution.
 
 A comment about exercise 3 is that due to the high bitrate of the video, it cannot be streamed by VLC player. However if we look at the terminal we see that the frame packets are being sent. Moreover, we could see this streamed file if we open a new terminal in parallel and run the following command:
-"ffplay udp://<IP>:<port>"
+"ffplay udp://< IP >:< port >"
   you should be able to see the video.
